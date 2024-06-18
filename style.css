@@ -3,3 +3,68 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* set the background color of the whole document */
+body {
+  background-color: #00b3e6 ;
+
+}
+
+/* style for all <div> elements */
+div {
+  width: 700px;
+  margin: auto; /* centers the element */
+  font-family: "Helvetica Neue";
+  background-color: white;
+  padding: 30px; /* creates an invisible space around the element */
+}
+
+/* style for the element with id #main-header */
+#main-header {
+  font-size: 22px;
+  text-align: center; /* centers the text */
+}
+
+/* style for elements with the class .perspective-questions */
+.perspective-questions {
+  font-style: italic;
+}
+
+/*style for nav links */
+nav a {
+  padding: 10px; /* padding on left and right slides */
+  background-color: grey; /* Background color */
+  display: inline-block; /* Necessary for padding to take effect */
+  text-align: center;
+}
+
+nav {
+  text-align: center; /* center all nav links */
+}
+
+/* style for  image caption */
+figcaption {
+  font-size:smaller; /* shrink the font size */
+  text-align: center; /* center the text */
+}
+
+/* style for text block within #featured-property */
+#featured-property P {
+  width: 800px; /* Hard width */
+  text-align: center; /* center the text */
+  margin: 20px auto; /* Add vertical space and center block */
+}
+
+/* Make each <div> in #details section float left */
+#details div {
+  float: left;
+}
+
+/* clean up bottom row <div> */
+.bottom-row div {
+  background-color: white; /* same background color */
+  text-align: center; /* center the text */
+  width: 25%; /* Occupy 25% of the width */
+  float: left; /* Align them horizontally */
+  box-sizing: border-box; /* Include padding/border in the element's total and height */ 
+}
